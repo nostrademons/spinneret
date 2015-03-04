@@ -18,7 +18,7 @@
     "webcomponents",
     "app"
   ],
-  "author": "Jonathan Tang",
+  "author": "Jonathan Tang <jonathan.d.tang@gmail.com>",
   "license": "Apache2",
   "bugs": {
     "url": "https://github.com/nostrademons/spinneret/issues"
