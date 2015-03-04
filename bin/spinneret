@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+'use strict'
+
+var path = require('path');
+var spinneret = require(path.join('..', 'lib', 'cli'));
+
+var command = process.argv[2];
+console.log('Command is ' + command);
+spinneret[command](process.argv.slice(3), {});
